@@ -1,0 +1,19 @@
+.game-results {
+  &__container {
+    padding: 30px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    box-sizing: border-box;
+
+    > h1 {
+      margin: 0 auto 20px;
+      text-align: center;
+    }
+  }
+
+  &__body {
+    display: flex;
+    gap: 50px;
+  }
+}
